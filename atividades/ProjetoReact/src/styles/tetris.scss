@@ -1,0 +1,75 @@
+.game-block {
+    margin: 0;
+    padding: 0;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1px solid #ddd;
+  }
+  .piece-i {
+    background-color: #ec858b;
+  }
+  .piece-j {
+    background-color: #f1b598;
+  }
+  .piece-l {
+    background-color: #f8efae;
+  }
+  .piece-o {
+    background-color: #b5a677;
+  }
+  .piece-s {
+    background-color: #816e56;
+  }
+  .piece-t {
+    background-color: #b77c72;
+  }
+  .piece-z {
+    background-color: #e3be58;
+  }
+  .piece-preview {
+    background-color: #eee;
+  }
+
+  .piece-view{
+      float: left;
+      .game-block.block-empty{
+          background-color: #f3f3f3;
+      }
+  }
+
+  .game-board{
+      float: left;
+  }
+
+  .a{
+      display: inline-block;
+  }
+
+  .points{
+      position: absolute;
+      top: 12rem;
+  }
+
+  .all{
+      margin-left: 30%;
+  }
+
+  .gameover{
+    margin-left: 35%;
+  }
+
+  .title{
+      margin-left: 20%;
+  }
+
+  .newgame{
+    font-size: 23px;
+    border: none;
+    background-color: rgb(75, 182, 224);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 4px 4px rgb(25, 93, 119);
+  }
