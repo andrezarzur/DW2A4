@@ -84,6 +84,29 @@
         color: rgb(226, 226, 226);
         box-shadow: -4px -4px rgb(31, 116, 31)
     }
+
+    .footer{
+        position: fixed;
+        height: 30px;
+        background-color: rgb(26, 185, 39);
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        opacity: 0.4;
+    }
+
+    .footertext{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0.4%;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 300;
+        color: white;
+    }
 }
 
 @keyframes gradient {

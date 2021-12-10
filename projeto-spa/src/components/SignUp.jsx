@@ -28,6 +28,8 @@ export function SignUp(){
                     </Link>
                 </div>
             </div>
+            <footer class="footer"></footer>
+            <footer class="footertext">Tetris - André Correia Zarzur</footer>
         </div>
     )
 }

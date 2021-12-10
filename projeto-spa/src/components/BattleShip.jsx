@@ -39,19 +39,15 @@ import '../styles/tetris.scss';
 }
 
 window.onload = function display(){
-    try{
-        if (document.getElementById("title").innerHTML == "etris"){
-            var score = document.createElement("p");
-            score.setAttribute("id", "p");
-            document.getElementById("highscore").appendChild(score)
-            if(localStorage.getItem(localStorage.getItem("ativo")) != null){
-                score.innerHTML = "Highscore:" + localStorage.getItem(localStorage.getItem("ativo"));
-            } else{
-                score.innerHTML = "Highscore: 0";
-            }
+    if (document.getElementById("title").innerHTML == "Tetris"){
+        var score = document.createElement("p");
+        score.setAttribute("id", "p");
+        document.getElementById("highscore").appendChild(score)
+        if(localStorage.getItem(localStorage.getItem("ativo")) != null){
+            score.innerHTML = "Highscore:" + localStorage.getItem(localStorage.getItem("ativo"));
+        } else{
+            score.innerHTML = "Highscore: 0";
         }
-    } catch(err){
-        console.log(err)
     }
 }
 

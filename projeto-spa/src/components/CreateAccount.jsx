@@ -14,6 +14,8 @@ export function CreateAccount(){
                 </div>
             <button type="button" id="button" onClick={cadastrar}>Confirmar</button>
             </div>
+            <footer class="footer"></footer>
+            <footer class="footertext">Tetris - André Correia Zarzur</footer>
         </div>
     )
 }
